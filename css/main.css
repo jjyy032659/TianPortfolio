@@ -191,4 +191,52 @@ ul {
   font-size: 0.95rem;
   color: var(--color-text);
   font-weight: 500;
+}
+
+.skills {
+  padding: var(--spacing-xl) var(--spacing-lg);
+  background-color: var(--color-bg);
+}
+.skills__container {
+  max-width: var(--max-width);
+  margin: 0 auto;
+}
+.skills__title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--color-text);
+  margin-bottom: var(--spacing-lg);
+}
+.skills__flex {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--spacing-md);
+}
+.skills__category {
+  flex: 0 0 40%;
+  background-color: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  padding: var(--spacing-lg);
+}
+.skills__category-title {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--color-primary);
+  text-transform: uppercase;
+  margin-bottom: var(--spacing-md);
+}
+.skills__list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--spacing-sm);
+}
+.skills__item {
+  background-color: var(--color-bg);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  padding: 0.35rem 0.75rem;
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: var(--color-text);
 }/*# sourceMappingURL=main.css.map */

@@ -54,3 +54,14 @@ gap: var(--spacing-md);
     color: var(--color-text);
   }
 }
+
+
+@media (max-width: 768px) {
+  .skills {
+    padding: var(--spacing-lg) var(--spacing-md);
+
+    &__flex {
+      flex-direction: column;
+    }
+  }
+}

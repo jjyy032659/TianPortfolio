@@ -45,3 +45,14 @@
     margin-top: var(--spacing-sm);
   }
 }
+
+
+@media (max-width: 768px) {
+  .hero {
+    padding: var(--spacing-lg) var(--spacing-md);
+
+    &__lm {
+      flex-direction: column;
+    }
+  }
+}

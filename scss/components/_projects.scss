@@ -93,3 +93,14 @@
     margin-top: var(--spacing-sm);
   }
 }
+
+
+@media (max-width: 768px) {
+  .projects {
+    padding: var(--spacing-lg) var(--spacing-md);
+
+    &__grid {
+      grid-template-columns: 1fr;
+    }
+  }
+}

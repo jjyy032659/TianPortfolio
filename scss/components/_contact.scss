@@ -73,3 +73,15 @@
     color: var(--color-text-muted);
   }
 }
+
+@media (max-width: 768px) {
+  .contact {
+    padding: var(--spacing-lg) var(--spacing-md);
+
+    &__link {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: var(--spacing-sm);
+    }
+  }
+}
